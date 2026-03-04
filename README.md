@@ -27,10 +27,10 @@ competitive generalization performance.
 Predict the probability of heart disease using structured clinical
 features by:
 
--   Exploring multiple model families\
--   Applying deep learning techniques to tabular data\
--   Performing hyperparameter optimization\
--   Building a robust Out-of-Fold (OOF) validation pipeline\
+-   Exploring multiple model families
+-   Applying deep learning techniques to tabular data
+-   Performing hyperparameter optimization
+-   Building a robust Out-of-Fold (OOF) validation pipeline
 -   Maintaining leaderboard stability
 
 The goal was not just leaderboard score --- but strong validation
@@ -42,20 +42,20 @@ methodology and reproducibility.
 
 ###  Gradient Boosting
 
--   XGBoost\
--   LightGBM\
+-   XGBoost
+-   LightGBM
 -   CatBoost
 
 ###  Neural Networks
 
--   Dense Neural Networks (TensorFlow / Keras)\
--   Regularization tuning (Dropout, BatchNorm)\
--   Depth/width exploration\
+-   Dense Neural Networks (TensorFlow / Keras)
+-   Regularization tuning (Dropout, BatchNorm)
+-   Depth/width exploration
 -   Learning rate scheduling
 
 ### Transformers for Tabular Data
 
--   Representation learning experiments\
+-   Representation learning experiments
 -   Comparative performance vs GBDTs
 
 ------------------------------------------------------------------------
@@ -64,23 +64,23 @@ methodology and reproducibility.
 
 ### 1️ Preprocessing
 
--   Missing value handling\
--   Scaling & normalization\
--   Encoding strategies\
+-   Missing value handling
+-   Scaling & normalization
+-   Encoding strategies
 -   Distribution adjustments
 
 ### 2️ Feature Engineering
 
--   Interaction features\
--   Statistical combinations\
--   Iterative refinement\
+-   Interaction features
+-   Statistical combinations
+-   Iterative refinement
 -   Feature selection experiments
 
 ### 3️ Optimization
 
--   Hyperparameter tuning with Optuna\
--   Early stopping strategies\
--   Cross-validation stability monitoring\
+-   Hyperparameter tuning with Optuna
+-   Early stopping strategies
+-   Cross-validation stability monitoring
 -   Overfitting mitigation
 
 ------------------------------------------------------------------------
@@ -89,9 +89,9 @@ methodology and reproducibility.
 
 To avoid leaderboard overfitting:
 
--   K-Fold Cross Validation\
--   Out-of-Fold (OOF) prediction tracking\
--   Consistent AUC comparison across folds\
+-   K-Fold Cross Validation
+-   Out-of-Fold (OOF) prediction tracking
+-   Consistent AUC comparison across folds
 -   Submission pipeline from OOF-trained models
 
 This ensured strong alignment between public and private leaderboard
@@ -99,68 +99,63 @@ scores.
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+##  Project Structure
 
     Heart-Disease-Prediction/
     │
-    ├── notebooks/
-    │   ├── experiments/
-    │   ├── best_documented_iteration.ipynb
-    │   ├── best_performing_iteration.ipynb
-    │
-    ├── models/
-    ├── oof_predictions/
-    ├── submissions/
-    ├── utils/
+    ├── submision_outputs/
+    ├── heart-disesase-prediction/
+    ├── best_documented_iteration/
+    ├── best_performing_iteration_and_submission/
     └── README.md
 
 ------------------------------------------------------------------------
 
 ##  Tech Stack
 
--   Python\
--   TensorFlow / Keras\
--   XGBoost\
--   LightGBM\
--   CatBoost\
--   Optuna\
--   Scikit-learn\
--   Pandas / NumPy\
+-   Python
+-   TensorFlow / Keras
+-   XGBoost
+-   LightGBM
+-   CatBoost
+-   Optuna
+-   Scikit-learn
+-   Pandas / NumPy
 -   Jupyter Notebook
 
 ------------------------------------------------------------------------
 
 ##  What This Project Demonstrates
 
-✔ Competitive machine learning workflow\
-✔ Multi-model experimentation\
-✔ Deep learning applied to structured tabular data\
-✔ Strong cross-validation discipline\
-✔ Hyperparameter optimization pipelines\
+✔ Competitive machine learning workflow
+✔ Multi-model experimentation
+✔ Deep learning applied to structured tabular data
+✔ Strong cross-validation discipline
+✔ Hyperparameter optimization pipelines
 ✔ Clean experiment iteration structure
 
 ------------------------------------------------------------------------
 
 ##  Competition Citation
 
-Yao Yan, Walter Reade, Elizabeth Park.\
-*Predicting Heart Disease.*\
+Yao Yan, Walter Reade, Elizabeth Park.
+*Predicting Heart Disease.*
 https://kaggle.com/competitions/playground-series-s6e2, 2026. Kaggle.
 
 ------------------------------------------------------------------------
 
 ##  Future Improvements
 
--   Model ensembling (stacking / blending)\
--   SHAP-based explainability\
--   Feature importance stability analysis\
--   Automated experiment tracking (MLflow)\
+-   Model ensembling (stacking / blending)
+-   SHAP-based explainability
+-   Feature importance stability analysis
+-   Automated experiment tracking (MLflow)
 -   Deployment-ready inference pipeline
 
 ------------------------------------------------------------------------
 
 ##  Author
 
-**Adwait Tagalpalewar**\
-CSE Student \| Machine Learning & AI Enthusiast\
+**Adwait Tagalpalewar**
+CSE Student | Machine Learning & AI Enthusiast
 Interested in Competitive ML, Deep Learning & Optimization
