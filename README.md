@@ -1,10 +1,10 @@
-# ❤️ Heart Disease Prediction
+#  Heart Disease Prediction
 
 ### Kaggle Competition \| AUC: **0.95524 (Private LB)** \| Rank: **604 / 4371**
 
 ------------------------------------------------------------------------
 
-## 🏆 Competition Performance
+##  Competition Performance
 
   Metric                        Score
   ----------------------------- ----------------------------
@@ -22,7 +22,7 @@ competitive generalization performance.
 
 ------------------------------------------------------------------------
 
-## 🎯 Project Objective
+##  Project Objective
 
 Predict the probability of heart disease using structured clinical
 features by:
@@ -38,45 +38,45 @@ methodology and reproducibility.
 
 ------------------------------------------------------------------------
 
-## 🧠 Models Explored
+##  Models Explored
 
-### 🔹 Gradient Boosting
+###  Gradient Boosting
 
 -   XGBoost\
 -   LightGBM\
 -   CatBoost
 
-### 🔹 Neural Networks
+###  Neural Networks
 
 -   Dense Neural Networks (TensorFlow / Keras)\
 -   Regularization tuning (Dropout, BatchNorm)\
 -   Depth/width exploration\
 -   Learning rate scheduling
 
-### 🔹 Transformers for Tabular Data
+### Transformers for Tabular Data
 
 -   Representation learning experiments\
 -   Comparative performance vs GBDTs
 
 ------------------------------------------------------------------------
 
-## ⚙️ Technical Strategy
+##  Technical Strategy
 
-### 1️⃣ Preprocessing
+### 1️ Preprocessing
 
 -   Missing value handling\
 -   Scaling & normalization\
 -   Encoding strategies\
 -   Distribution adjustments
 
-### 2️⃣ Feature Engineering
+### 2️ Feature Engineering
 
 -   Interaction features\
 -   Statistical combinations\
 -   Iterative refinement\
 -   Feature selection experiments
 
-### 3️⃣ Optimization
+### 3️ Optimization
 
 -   Hyperparameter tuning with Optuna\
 -   Early stopping strategies\
@@ -85,7 +85,7 @@ methodology and reproducibility.
 
 ------------------------------------------------------------------------
 
-## 🔁 Validation Framework
+##  Validation Framework
 
 To avoid leaderboard overfitting:
 
@@ -116,7 +116,7 @@ scores.
 
 ------------------------------------------------------------------------
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 -   Python\
 -   TensorFlow / Keras\
@@ -130,7 +130,7 @@ scores.
 
 ------------------------------------------------------------------------
 
-## 📊 What This Project Demonstrates
+##  What This Project Demonstrates
 
 ✔ Competitive machine learning workflow\
 ✔ Multi-model experimentation\
@@ -141,7 +141,7 @@ scores.
 
 ------------------------------------------------------------------------
 
-## 📚 Competition Citation
+##  Competition Citation
 
 Yao Yan, Walter Reade, Elizabeth Park.\
 *Predicting Heart Disease.*\
@@ -149,7 +149,7 @@ https://kaggle.com/competitions/playground-series-s6e2, 2026. Kaggle.
 
 ------------------------------------------------------------------------
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 -   Model ensembling (stacking / blending)\
 -   SHAP-based explainability\
@@ -159,7 +159,7 @@ https://kaggle.com/competitions/playground-series-s6e2, 2026. Kaggle.
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
+##  Author
 
 **Adwait Tagalpalewar**\
 CSE Student \| Machine Learning & AI Enthusiast\
