@@ -72,6 +72,9 @@ methodology and reproducibility.
 ### 2️ Feature Engineering
 
 -   Interaction features
+-   Binning
+-   Frequency Encoding
+-   GroupMean Encoding
 -   Statistical combinations
 -   Iterative refinement
 -   Feature selection experiments
