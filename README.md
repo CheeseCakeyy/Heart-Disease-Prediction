@@ -157,6 +157,3 @@ https://kaggle.com/competitions/playground-series-s6e2, 2026. Kaggle.
 ##  Author
 
 **Adwait Tagalpalewar**
-
-CSE Student | Machine Learning & AI Enthusiast
-Interested in Competitive ML, Deep Learning & Optimization
