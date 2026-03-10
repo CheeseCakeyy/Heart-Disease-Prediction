@@ -53,11 +53,6 @@ methodology and reproducibility.
 -   Depth/width exploration
 -   Learning rate scheduling
 
-### Transformers for Tabular Data
-
--   Representation learning experiments
--   Comparative performance vs GBDTs
-
 ------------------------------------------------------------------------
 
 ##  Technical Strategy
@@ -131,12 +126,12 @@ scores.
 
 ##  What This Project Demonstrates
 
-✔ Competitive machine learning workflow
-✔ Multi-model experimentation
-✔ Deep learning applied to structured tabular data
-✔ Strong cross-validation discipline
-✔ Hyperparameter optimization pipelines
-✔ Clean experiment iteration structure
+- ✔ Competitive machine learning workflow
+- ✔ Multi-model experimentation
+- ✔ Deep learning applied to structured tabular data
+- ✔ Strong cross-validation discipline
+- ✔ Hyperparameter optimization pipelines
+- ✔ Clean experiment iteration structure
 
 ------------------------------------------------------------------------
 
@@ -151,9 +146,8 @@ https://kaggle.com/competitions/playground-series-s6e2, 2026. Kaggle.
 ##  Future Improvements
 
 -   Model ensembling (stacking / blending)
--   SHAP-based explainability
 -   Feature importance stability analysis
--   Automated experiment tracking (MLflow)
+-   Experiment tracking 
 -   Deployment-ready inference pipeline
 
 ------------------------------------------------------------------------
