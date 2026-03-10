@@ -8,9 +8,9 @@
  ```text
   Metric                        Score
   ----------------------------- ----------------------------
-  **Private Leaderboard AUC**   **0.95524**
+  **Private Leaderboard AUC**   0.95524
   **Public Leaderboard AUC**    0.95377
-  **Final Rank**                **604 / 4371** (Top \~14%)
+  **Final Rank**                604 / 4371 (Top \~14%)
 ```
 This repository contains my structured experimentation pipeline
 developed for the Kaggle competition:
